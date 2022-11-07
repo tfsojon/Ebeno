@@ -1,6 +1,6 @@
 ---
 title: Essences de bois
-description: Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.
+description: ''
 type: docs
 weight: "1"
 
