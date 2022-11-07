@@ -1,15 +1,13 @@
 ---
-title: "Essences de bois"
-# meta description
-description: "Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet."
-# type dont remove or customize
-type : "docs"
-weight : 1
----
+title: Essences de bois
+description: Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.
+type: docs
+weight: "1"
 
+---
 ![image](essences-bois.jpg?width=500px)
 
-Listing non exhaustive d'essences de bois disponibles à Paris.
+Liste non exhaustive d'essences de bois disponibles à Paris.
 
 <br>
 
