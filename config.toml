@@ -1,38 +1,69 @@
-######################## default configuration ####################
-baseURL = "https://ebeno.metraf.me/"
-title = "Ebeno"
-theme = "godocs-4"
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-# disable language
-disableLanguages = [] # disable language from here
+baseURL = "https://ebeno.org/"
 defaultContentLanguage = "fr"
-# hugo outputs
-[outputs]
-home = ["HTML", "JSON"]
-
-# render unsafe html
+disableLanguages = []
+googleAnalytics = ""
+theme = "godocs-4"
+title = "Ebeno"
+[Languages.fr]
+copyright = "Conçu avec l'aide de [Hugo](https://gohugo.io)"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 1
+[Languages.fr.banner]
+image = "park.png"
+subtitle = "Le prix  général d'une essence ? Un fournisseur ? Des conseils ? "
+title = "Référence pour <br>Ébénistes"
+[Languages.fr.call_to_action]
+content = "N'hésitez pas à faire des retours !"
+enable = false
+image = "images/cta-illustration.jpg"
+title = "Vous avez une question ou une demande ?"
+[Languages.fr.call_to_action.button]
+enable = "true"
+label = "Ecrire une demande !"
+link = "contact/"
+[Languages.fr.feedback]
+content = "Vos commentaires nous aident à améliorer la plateforme."
+negative_placeholder = "Que pouvons-nous améliorer cette page ?"
+positive_placeholder = "Qu'avez-vous aimé sur cette page ?"
+title = "Avez-vous trouvé ces informations pertinentes ?"
+[[Languages.fr.menu.footer]]
+name = "Ref"
+url = "/ref/"
+weight = 1
+[[Languages.fr.menu.footer]]
+name = "Contact"
+url = "/contact/"
+weight = 2
 [markup.goldmark.renderer]
 unsafe = true
-
-############################# Plugins ##############################
-
-# CSS Plugin
+[outputs]
+home = ["HTML", "JSON"]
+[params]
+author = "Jean Doukhan"
+contact_form_action = "https://formspree.io/f/xqkjgjyb"
+description = "Site de référence pour ébénistes"
+feedback_form_action = "https://formspree.io/f/xlevovpl"
+[params.logo]
+docs_logo = "nom_seul2.png"
+favicon = "logo.png"
+logo_icon = ""
+main = "logo.png"
+main_site_link = "https://ebeno.fr"
+site_logo = "logo.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/search/auto-complete.css"
 [[params.plugins.css]]
 link = "plugins/featherlight/featherlight.min.css"
-
-# JS Plugin
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 [[params.plugins.js]]
 link = "plugins/masonry/masonry.min.js"
 [[params.plugins.js]]
@@ -51,116 +82,33 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search-page.js"
-
-# site variables
+[params.preloader]
+enable = false
+preloader = ""
 [params.variables]
-# Color Variables
+black = "#000"
+body_color = "#fff"
+border_color = "#E2E2E2"
+icon_font = "Font Awesome 5 Free"
+light = "#FBFBFB"
 primary_color = "#bf9000"
+primary_font = "Montserrat:wght@300;400;500;600;700;800"
+primary_font_type = "sans-serif"
+secondary_font = ""
+secondary_font_type = ""
 text_color = "#333"
 text_color_dark = "#222"
 text_color_light = "#999"
-body_color = "#fff"
-border_color = "#E2E2E2"
-black = "#000"
 white = "#fff"
-light = "#FBFBFB"
-
-# Font Variables
-primary_font = "Montserrat:wght@300;400;500;600;700;800"
-primary_font_type = "sans-serif"                         # [serif/sans-serif]
-secondary_font = ""
-secondary_font_type = ""                                 # [serif/sans-serif]
-icon_font = "Font Awesome 5 Free"
-
-
-#################### default parameters ################################
-[params]
-# meta description
-author = "Jean Doukhan"
-description = "Site de référence pour ébénistes"
-# contact form action
-contact_form_action = "https://formspree.io/f/xqkjgjyb" # contact form works with https://formspree.io
-# feedback form action
-feedback_form_action = "https://formspree.io/f/xlevovpl" # contact form works with https://formspree.io
-
-# logo
-[params.logo]
-main = "logo.png"
-favicon = "logo.png"
-main_site_link = "https://ebeno.fr"
-logo_icon = ""
-site_logo = "logo.png"
-docs_logo = "nom_seul2.png"
-
-# Preloader
-[params.preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
-
-
-# Navigation button
-
 [[params.nav_button]]
-style = "solid"   # available style: solid, outline
 label = "contact"
 link = "contact/"
-
-
-############################# social site ########################
+style = "solid"
 [[params.social]]
-title = "Qui suis-je ?"
-icon = "fas fa-address-card" # fontawesome icon : https://fontawesome.com/icons
+icon = "fas fa-address-card"
 link = "https://jean.doukhan.pro"
-
-
+title = "Qui suis-je ?"
 [[params.social]]
-title = "Mon LinkedIn"
-icon = "fab fa-linkedin" # fontawesome icon : https://fontawesome.com/icons
+icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/in/jean-doukhan/"
-
-
-
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-weight = 1
-# copyright
-copyright = "Conçu avec l'aide de [Hugo](https://gohugo.io)"
-
-# banner
-[Languages.fr.banner]
-title = "Référence pour <br>Ébénistes"
-subtitle = "Le prix  général d'une essence ? Un fournisseur ? Des conseils ? "
-image = "park.png"
-
-# feedback
-[Languages.fr.feedback]
-title = "Avez-vous trouvé ces informations pertinentes ?"
-content = "Vos commentaires nous aident à améliorer la plateforme."
-positive_placeholder = "Qu'avez-vous aimé sur cette page ?"
-negative_placeholder = "Que pouvons-nous améliorer cette page ?"
-
-# call to action
-[Languages.fr.call_to_action]
-enable = false
-title = "Vous avez une question ou une demande ?"
-image = "images/cta-illustration.jpg"
-content = "N'hésitez pas à faire des retours !"
-
-# call to action button
-[Languages.fr.call_to_action.button]
-enable = "true"
-label = "Ecrire une demande !"
-link = "contact/"
-
-
-
-[[Languages.fr.menu.footer]]
-name = "Ref"
-url = "/ref/"
-weight = 1
-
-[[Languages.fr.menu.footer]]
-name = "Contact"
-url = "/contact/"
-weight = 2
+title = "Mon LinkedIn"
