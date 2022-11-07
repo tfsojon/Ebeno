@@ -43,6 +43,10 @@ sections:
   label: Changelog
   create: all
   match: "**/*"
+- type: document
+  path: config.toml
+  label: CONFIG
+  match: "**/*"
 upload_dir: static
 public_path: ''
 front_matter_path: ''
