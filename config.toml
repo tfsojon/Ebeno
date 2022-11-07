@@ -77,7 +77,7 @@ icon_font = "Font Awesome 5 Free"
 [params]
 # meta description
 author = "Jean Doukhan"
-description = "Site de références pour ébénistes"
+description = "Site de référence pour ébénistes"
 # contact form action
 contact_form_action = "https://formspree.io/f/xqkjgjyb" # contact form works with https://formspree.io
 # feedback form action
@@ -129,7 +129,7 @@ copyright = "Conçu avec l'aide de [Hugo](https://gohugo.io)"
 
 # banner
 [Languages.fr.banner]
-title = "Références utiles <br>Des ébénistes"
+title = "Référence pour <br>Ébénistes"
 subtitle = "Le prix  général d'une essence ? Un fournisseur ? Des conseils ? "
 image = "park.png"
 
