@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: 'Sujets :'
 - type: directory
   path: content
   label: Pages
@@ -24,11 +26,8 @@ sections:
   label: Conseils
   create: all
   match: "**/*"
-- type: directory
-  path: content/search
-  label: Search
-  create: all
-  match: "**/*"
+- type: heading
+  label: 'Fixes :'
 - type: directory
   path: content/faq
   label: Faq
