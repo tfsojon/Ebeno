@@ -49,7 +49,7 @@ docs_logo = "nom_seul2.png"
 favicon = "logo.png"
 logo_icon = ""
 main = "logo.png"
-main_site_link = "https://ebeno.fr"
+main_site_link = "https://ebeno.org"
 site_logo = "logo.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
