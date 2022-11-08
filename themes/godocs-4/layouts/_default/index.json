@@ -1,4 +1,8 @@
-[{{ range $index, $page := (where .Site.Pages "Type" "docs")}}
+{{- $sections := slice -}}
+{{- range (where .Site.Pages "Type" "docs") -}}
+{{- $sections = $sections | append (.Title | urlize) -}}
+{{- end -}}
+[{{- range $index, $page := (where site.Pages "Section" "in" $sections) -}}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
   {
