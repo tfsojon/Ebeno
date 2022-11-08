@@ -2,7 +2,7 @@
   translation: Chercher
 
 - id: search_placeholder
-  translation: Cherche ici ...
+  translation: Chercher...
 
 - id: topics
   translation: Parcourez vos sujets
@@ -32,4 +32,4 @@
   translation: Envoyer des commentaires
 
 - id: search_result
-  translation: Résultat de recherche pour
+  translation: Résultat de recherche : 
