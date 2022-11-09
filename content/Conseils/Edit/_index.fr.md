@@ -5,6 +5,7 @@ description: "Tuto pour modifier les pages"
 # type dont remove or customize
 type : "docs"
 weight : 5
+draft : true
 ---
 
 Lorsque vous recevez une invitation à participer à la rédaction vous devrez vous inscrire à la plateforme "forestry". Voici des indications pour l'inscription.
