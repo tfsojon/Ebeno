@@ -17,7 +17,7 @@ Lorsque vous recevez une invitation à participer à la rédaction vous devrez v
 
 
 
-Voici différents exemples de mise en page avec markdown lorsque vous rédigez le texte en "raw" plutôt que via l'interface de mise en page proposée par forestry.
+Voici différents exemples de mise en page avec markdown ainsi qu'une liste non exhaustives des fonctionnalités de mise en page, lorsque vous rédigez le texte en "raw" plutôt que via l'interface de mise en page proposée par forestry.
 N'y faites pas attention si vous utilisez la mise en page forestry, ceci n'est qu'une indication.
 <!--more-->
 
