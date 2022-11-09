@@ -15,7 +15,10 @@ Lorsque vous recevez une invitation à participer à la rédaction vous devrez v
 ![image](4.png?width=500px)
 
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+
+
+Voici différents exemples de mise en page avec markdown lorsque vous rédigez le texte en "raw" plutôt que via l'interface de mise en page proposée par forestry.
+N'y faites pas attention si vous utilisez la mise en page forestry, ceci n'est qu'une indication.
 <!--more-->
 
 ## Paragraph
