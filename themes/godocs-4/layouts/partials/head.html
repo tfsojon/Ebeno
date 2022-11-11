@@ -35,3 +35,15 @@
 {{ template "_internal/google_analytics.html" . }}
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'M3ORDEBOO2',
+    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+    siteId: '2d985238-0c21-4efc-a1a5-b29292a3a834',
+    branch: 'main',
+    selector: 'div#search',
+  });
+</script>
