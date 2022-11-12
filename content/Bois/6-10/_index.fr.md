@@ -2,7 +2,7 @@
 title: Placages de 6/10
 weight: 1
 feedback: true
-draft: true
+draft: false
 date: 2022-11-12T13:16:05.064Z
 ---
 #### Placages 6/10
