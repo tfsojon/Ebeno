@@ -4,6 +4,7 @@ weight: 1
 feedback: true
 draft: false
 date: 2022-11-12T13:16:05.064Z
+tags: Placage
 ---
 #### Placages 6/10
 
