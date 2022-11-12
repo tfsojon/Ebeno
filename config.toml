@@ -104,7 +104,7 @@ white = "#fff"
         <div data-netlify-identity-button>Se connecter</div>
 [[params.nav_button]]
 label = "Connexion"
-link = "https://identity.netlify.com/v1/netlify-identity-widget.js"
+link = "admin/"
 style = "outline"
 [[params.nav_button]]
 label = "L'équipe"
