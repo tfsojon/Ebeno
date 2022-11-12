@@ -3,7 +3,7 @@ title: "Bois Massifs"
 weight: 5
 feedback: true
 draft: false
-tags: massif
+tag: massif
 ---
 
 ### Bois Massifs

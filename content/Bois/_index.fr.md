@@ -3,7 +3,7 @@ title: "Bois"
 description: ''
 type: docs
 weight: "1"
-tags: bois
+tag: bois
 ---
 ![image](essences-bois.jpg?width=500px)
 
