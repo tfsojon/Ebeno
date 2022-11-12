@@ -1,11 +1,10 @@
 ---
-title: "Modifier le contenu"
-# meta description
-description: "Tuto pour modifier les pages"
-# type dont remove or customize
-type : "docs"
-weight : 5
-draft : true
+title: Modifier le contenu
+description: Tuto pour modifier les pages
+type: docs
+weight: 5
+draft: true
+date: 2022-11-12T13:06:00.948Z
 ---
 
 Lorsque vous recevez une invitation à participer à la rédaction vous devrez vous inscrire à la plateforme "forestry". Voici des indications pour l'inscription.
