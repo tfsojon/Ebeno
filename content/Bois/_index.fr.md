@@ -1,5 +1,5 @@
 ---
-title: Essences de bois
+title: "Bois"
 description: ''
 type: docs
 weight: "1"
