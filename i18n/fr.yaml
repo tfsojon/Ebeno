@@ -23,7 +23,7 @@
   translation: Raison du contact
 
 - id: write_message
-  translation: Commencez à écrire à partir d'ici
+  translation: "Votre message :"
 
 - id: send
   translation: Envoyer
