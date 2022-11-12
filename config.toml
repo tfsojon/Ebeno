@@ -101,13 +101,14 @@ text_color_dark = "#222"
 text_color_light = "#999"
 white = "#fff"
 [[params.nav_button]]
-label = "contact"
-link = "contact/"
-style = "solid"
-[[params.nav_button]]
 label = "L'équipe"
 link = "about/"
 style = "outline"
+[[params.nav_button]]
+label = "contact"
+link = "contact/"
+style = "solid"
+
 [[params.social]]
 icon = "fas fa-address-card"
 link = "https://jean.doukhan.pro"
