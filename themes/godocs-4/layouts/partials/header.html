@@ -53,7 +53,24 @@
           {{ end }}
         </select>
         {{ end }}
+
+
+        <!-- Algolia Search -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+        <script type="text/javascript">
+          algoliasearchNetlify({
+            appId: 'M3ORDEBOO2',
+            apiKey: '87f3b16e06659f5e3198202952dbaf5d',
+            siteId: '2d985238-0c21-4efc-a1a5-b29292a3a834',
+            branch: 'main',
+            selector: 'div#search',
+          });
+        </script>
+
+
         <!-- nav buttons -->
+
         {{ range $i, $e:= site.Params.nav_button }}
         <a href="{{ .link | absLangURL }}"
           class="btn btn-sm {{if eq .style `outline`}}btn-outline-primary{{else}}btn-primary{{end}} {{if and $i (gt $i 0)}}ml-3{{end}}">{{ .label }}</a>
