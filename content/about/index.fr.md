@@ -1,31 +1,8 @@
 ---
-title: "A propos de l'équipe"
-description: "Descriptif des auteurices."
-layout: "about"
+title: Qui rédige Ebeno ?
+description: Descriptif des auteurices.
+layout: about
 draft: false
+date: 2022-11-12T21:02:35.445Z
 ---
-<!--
-  <div class="container">
-    <div class="row align-items-center border-bottom py-5">
-      <div class="col-lg-4">
-        <ul class="list-inline footer-menu text-center text-lg-left">
-          {{ range site.Menus.footer }}
-          <li class="list-inline-item"><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
-
-      <div class="col-lg-4">
-        <ul class="list-inline social-icons text-lg-center text-left">
-          {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-    <div class="py-4 text-center">
-      <small class="text-light">{{ site.Params.copyright | markdownify }}</small>
-    </div>
-  </div>
-
--->
+Moi !
