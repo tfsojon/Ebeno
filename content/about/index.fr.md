@@ -4,7 +4,7 @@ description: "Descriptif des auteurices."
 layout: "about"
 draft: false
 ---
-
+<!--
   <div class="container">
     <div class="row align-items-center border-bottom py-5">
       <div class="col-lg-4">
@@ -27,3 +27,5 @@ draft: false
       <small class="text-light">{{ site.Params.copyright | markdownify }}</small>
     </div>
   </div>
+
+-->

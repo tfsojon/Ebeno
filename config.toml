@@ -104,6 +104,10 @@ white = "#fff"
 label = "contact"
 link = "contact/"
 style = "solid"
+[[params.nav_button]]
+label = "L'équipe"
+link = "about/"
+style = "outline"
 [[params.social]]
 icon = "fas fa-address-card"
 link = "https://jean.doukhan.pro"
