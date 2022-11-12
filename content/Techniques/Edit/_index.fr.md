@@ -5,13 +5,9 @@ type: docs
 weight: 5
 draft: true
 date: 2022-11-12T13:06:00.948Z
-image: logo.png
+image: ""
 ---
-<!--more-->
 
-blob:https://www.ebeno.org/1b270524-cdad-457c-b5b9-e6addf01cab1
-
-![](logo.png)
 
 ## Paragraph
 
