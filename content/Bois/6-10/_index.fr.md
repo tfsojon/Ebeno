@@ -1,14 +1,14 @@
 ---
-title: "Placages de 6/10"
+title: Placages de 6/10
 weight: 1
 feedback: true
-draft: false
+draft: true
+date: 2022-11-12T13:16:05.064Z
 ---
-
 #### Placages 6/10
 
 | Essence                       | Prix     |
-|-------------------------------|----------|
+| ----------------------------- | -------- |
 | Afromosia 6/10mm              | 8,40 €   |
 | Bois De Rose 6/10mm           | 33,60 €  |
 | Bouleau 6/10mm                | 8,88 €   |
