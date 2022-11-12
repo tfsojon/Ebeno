@@ -10,29 +10,29 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="fname">{{ i18n "first_name" }}</label>
-                <input type="text" class="form-control" id="fname" name="fname" placeholder="Your First Name" required>
+                <input type="text" class="form-control" id="fname" name="fname" placeholder="Votre prénom" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="lname">{{ i18n "last_name" }}</label>
-                <input type="text" class="form-control" id="lname" name="lname" placeholder="Your Last Name">
+                <input type="text" class="form-control" id="lname" name="lname" placeholder="Votre nom">
               </div>
             </div>
             <div class="form-group">
               <label for="email">{{ i18n "email" }}</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Votre courriel" required>
             </div>
             <div class="form-group">
               <label for="reason">{{ i18n "contact_reason" }}</label>
               <select id="reason" class="form-control custom-select" name="reason" required>
-                <option selected disabled>Choose Your Reason</option>
-                <option value="business">Business</option>
-                <option value="ticket">Ticket</option>
-                <option value="project">Project</option>
+                <option selected disabled>Motif de contact :</option>
+                <option value="business">Prise de contact</option>
+                <option value="ticket">Demande</option>
+                <option value="project">Question technique</option>
               </select>
             </div>
             <div class="form-group">
               <label for="message">{{ i18n "write_message" }}</label>
-              <textarea name="message" id="message" class="form-control" placeholder="Your Text here ..."></textarea>
+              <textarea name="message" id="message" class="form-control" placeholder="Ecrivez ici :"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">{{ i18n "send" }}</button>
           </form>
