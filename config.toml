@@ -101,7 +101,6 @@ text_color_dark = "#222"
 text_color_light = "#999"
 white = "#fff"
 
-        <div data-netlify-identity-button>Se connecter</div>
 [[params.nav_button]]
 label = "Connexion"
 link = "admin/"
