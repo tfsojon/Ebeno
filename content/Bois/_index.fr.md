@@ -1,7 +1,7 @@
 ---
 title: "Bois"
 description: ''
-type: docs
+type: "docs"
 weight: "1"
 tag: bois
 ---
